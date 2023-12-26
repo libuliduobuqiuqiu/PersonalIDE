@@ -167,14 +167,10 @@ $ cp .tmux/.tmux.conf.local .
 ```
 
 tmux命令：
-```
-https://github.com/gpakosz/.tmux
-```
+> https://github.com/gpakosz/.tmux
 
 参考教程：
-```
-https://www.ruanyifeng.com/blog/2019/10/tmux.html
-```
+> https://www.ruanyifeng.com/blog/2019/10/tmux.html
 
 ## Clash(代理)
 
