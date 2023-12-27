@@ -157,7 +157,7 @@ oh-my-zsh主题：（powerlevel10k）
 apt install tmux
 ```
 
-加载其他人个性化tmux配置：
+加载标准个性化tmux配置：
 ```shell
 $ cd
 
@@ -173,10 +173,15 @@ tmux命令：
 > https://www.ruanyifeng.com/blog/2019/10/tmux.html
 
 ## Clash(代理)
-
+设置ALL_PROXY,设置https_proxy,设置http_proxy（备注：自身部署服务测试接口API，有可能会走到代理访问vpn，建议下载更新软件时候才开启，默认关闭）
 ```
 host_ip=$(cat /etc/resolv.conf | grep nameserver | cut -f 2 -d " ")
 export ALL_PROXY="http://$host_ip:7890"
 export https_proxy="http://$host_ip:7890"
 export http_proxy="http://$host_ip:7890"
+```
+补充shell脚本用于快捷设置代理地址和取消代理地址,具体参考clash_for_linux.sh,增加快捷命令：
+```
+alias clash='source /root/clash_for_linux.sh set'
+alias unclash='source /root/clash_for_linux.sh unset'
 ```
