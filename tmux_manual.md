@@ -32,3 +32,11 @@
 ```
 <ctrl-a>/<ctrl-b> <Number>
 ```
+新增窗口
+```
+<ctrl-a><ctrl-b> c
+```
+删除当前窗口
+```
+<ctrl-a><ctrl-b> &
+```
