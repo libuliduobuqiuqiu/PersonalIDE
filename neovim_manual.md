@@ -49,6 +49,15 @@ gcc
 
 ### Treesitter
 
+开启折叠功能(/root/.config/nvim/lua/config/lazy.lua)
+```
+-- 开启代码折叠
+vim.wo.foldmethod = 'expr'
+vim.wo.foldexpr = 'nvim_treesitter#foldexpr()'
+-- 默认不折叠
+vim.wo.foldlevel = 99
+```
+
 折叠代码\打开代码(光标下)
 ```
 zc zr
