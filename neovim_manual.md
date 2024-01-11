@@ -46,3 +46,18 @@ gcc
 2. 通过Mason下载对应Formatting配置（black）
 3. 定位到confirm.nvim配置目录下，/root/.local/share/nvim/lazy/conform.nvim/lua/conform，修改配置文件
 4. 在代码中使用<leader> cf
+
+### Treesitter
+
+折叠代码\打开代码(光标下)
+```
+zc zr
+```
+切换折叠和打开:单层级\所有层级
+```
+za zA
+```
+折叠所有\打开所有
+```
+zM zR
+```
