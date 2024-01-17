@@ -36,6 +36,11 @@ gcc
 ```
 <leader> cl 
 ```
+go LSP
+> gopls
+
+python LSP
+> pyright
 
 ### Formatting
 参考链接： 
@@ -69,4 +74,14 @@ za zA
 折叠所有\打开所有
 ```
 zM zR
+```
+### Telescope
+
+提供全文搜索功能
+```
+<leader> /
+```
+Ubuntu需要安装额外插件：
+```
+apt-get install ripgrep
 ```
