@@ -63,6 +63,16 @@ vim.wo.foldexpr = 'nvim_treesitter#foldexpr()'
 vim.wo.foldlevel = 99
 ```
 
+需要安装支持额外语言(go)的插件：
+```
+TSInstall go
+```
+
+查看已安装支持的语言
+```
+TSInstallInfo
+```
+
 折叠代码\打开代码(光标下)
 ```
 zc zr
