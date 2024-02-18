@@ -12,6 +12,8 @@
 ```
 <ctrl-a>/<ctrl-b> + 
 ```
+### Session
+
 退出保存当前会话（detach):
 ```
 <ctrl-a>/<ctrl-b> d
@@ -20,6 +22,9 @@
 ```
 <ctrl-a>/<ctrl-b> attach -t <session-name>
 ```
+
+### Window
+
 新建一个Window:
 ```
 <ctrl-a>/<ctrl-b> !
@@ -40,3 +45,18 @@
 ```
 <ctrl-a><ctrl-b> &
 ```
+
+### Mode
+进入Copy-Mode模式
+```
+<prefix> Enter
+```
+开启鼠标操作
+```
+<prefix> m
+```
+
+### 备注
+
+文档备注：
+- <prefix>为导航键，为<ctrl-a>或者<ctrl-b>
