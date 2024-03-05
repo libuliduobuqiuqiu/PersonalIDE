@@ -99,3 +99,23 @@ Ubuntu需要安装额外插件：
 ```
 apt-get install ripgrep
 ```
+
+### Git Blame
+
+> 查看代码提交历史插件
+
+使用：
+1. 找到lazy-vim的插件lua配置存放的路径：（/root/.config/nvim/lua/plugins/)
+2. 新建插件lua配置文件，设置插件名称，使用快捷键等
+3. 重启安装即可
+
+```lua
+return {
+  {
+    "FabijanZulj/blame.nvim",
+    cmd = "ToggleBlame",
+    keys = { { "<leader>gb", "<cmd>ToggleBlame<cr>", desc = "Toggle Blame" } },
+  }
+}
+```
+
