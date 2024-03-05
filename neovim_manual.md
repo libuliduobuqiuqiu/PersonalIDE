@@ -25,6 +25,10 @@ v
 ```
 <S-hj>
 ```
+固定buffer:
+```
+<leader> bp
+```
 ### mini
 注释：
 ```
