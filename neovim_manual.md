@@ -1,5 +1,16 @@
 ## NeoVim Manual
 
+### Base operate
+
+光标跳转(回到上一次光标所在位置)
+```
+ctrl + o
+```
+光标跳转（回到返回前的光标所在位置）
+```
+ctrl + i
+```
+
 ### neo-tree.vim
 
 (在树形列表中）打开隐藏文件
