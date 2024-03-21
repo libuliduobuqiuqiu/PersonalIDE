@@ -129,4 +129,23 @@ return {
   }
 }
 ```
+### Spectre
+
+> 批量查找替换
+
+安装使用参考Git Blame插件
+
+```lua
+return {
+  {
+    "nvim-pack/nvim-spectre",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    cmd = "Spectre",
+    keys = {
+      { '<leader>gF', '<cmd>lua require("spectre").toggle()<CR>',                        desc = "Toggle Spectre" },
+      { '<leader>gf', '<cmd>lua require("spectre").open_visual({select_word=true})<CR>', desc = "Search current word" }
+    }
+  }
+}
+```
 
