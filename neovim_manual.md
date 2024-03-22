@@ -2,13 +2,33 @@
 
 ### Base operate
 
+#### 光标
+
+| Key | Description | Mode |
+| ---- | ---- | ---- |
+|ctrl + o |光标跳转(回到上一次光标所在位置) | n |
+
+
+```
 光标跳转(回到上一次光标所在位置)
-```
 ctrl + o
-```
+
 光标跳转（回到返回前的光标所在位置）
-```
 ctrl + i
+```
+#### Mark
+
+Keymap映射
+```lua
+-- Goto Mark
+vim.keymap.set('n', 'M', "'")
+
+-- Delete Mark
+vim.keymap.set('n', 'dm', '<cmd>lua DelMark()<cr>', { noremap = true, silent = true })
+function DelMark()
+  local mark = vim.fn.input('')
+  vim.cmd('delmarks ' .. mark)
+end
 ```
 
 ### neo-tree.vim
@@ -27,6 +47,7 @@ v
 ```
 
 ### buffer
+
 
 关闭buffer:
 ```
