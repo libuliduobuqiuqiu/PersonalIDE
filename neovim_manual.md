@@ -133,4 +133,17 @@ return {
   }
 }
 ```
-
+#### 备注
+问题：解决查找替换后，出现Neo-tree错误( no such file or directory)
+解决方法：关闭neo-tree部分配置项，在nvim中plugins目录新建lua配置
+```lua
+return {
+  "nvim-neo-tree/neo-tree.nvim",
+  opts = function(_, opts)
+    table.insert(opts.open_files_do_not_replace_types, "spectre_panel")
+    opts.filesystem.use_libuv_file_watcher = false
+  end,
+}
+```
+参考issue：
+> https://github.com/nvim-pack/nvim-spectre/issues/170
