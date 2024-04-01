@@ -147,3 +147,31 @@ return {
 ```
 参考issue：
 > https://github.com/nvim-pack/nvim-spectre/issues/170
+
+### ColorScheme
+nvim主题预览链接：
+> https://vimcolorschemes.com/top/
+
+修改neovim主题：
+```lua
+return {
+  -- add gruvbox
+  { "ellisonleao/gruvbox.nvim" },
+
+  -- Configure LazyVim to load gruvbox
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "gruvbox",
+    },
+  }
+}
+```
+修改neovim主题风格：
+```lua
+{
+  "folke/tokyonight.nvim",
+  lazy = true,
+  opts = { style = "moon" },
+}
+```
