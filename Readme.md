@@ -92,7 +92,7 @@ return c
 > https://wezfurlong.org/wezterm/config/files.html
 
 终端默认按键定义；
-> https://wezfurlong.org/wezterm/config/default-keys.html
+> https://wezfurlong.org/wezterm/config/default-Keyss.html
 
 文章：
 > https://www.rayalto.pro/2023/10/25/wezterm-replace-windows-terminal/
@@ -103,14 +103,14 @@ return c
 
 设置自定义快捷键示例
 ```
-vim.keymap.set('i', 'jj', '<esc>')
+vim.Keyssmap.set('i', 'jj', '<esc>')
 ```
 
 LazyVim按键绑定：
 > https://www.lazyvim.org/keymaps
 
-LazyVim keymaps：
-> https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
+LazyVim Keysmaps：
+> https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/Keysmaps.lua
 
 ## Python LSP插件：pyright
 
