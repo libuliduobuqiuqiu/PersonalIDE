@@ -185,3 +185,17 @@ export http_proxy="http://$host_ip:7890"
 alias clash='source /root/clash_for_linux.sh set'
 alias unclash='source /root/clash_for_linux.sh unset'
 ```
+
+### 备注
+
+windows系统上capsLock 和 ctrl键互换
+1. 通过win+r，regedit打开注册表；
+2. 找到路径（计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout）
+3. 新建一个二进制值，重命名Scancode Map;
+4. 编辑二进制值
+```
+0000 00 00 00 00 00 00 00 00
+0008 03 00 00 00 1D 00 3A 00
+0010 3A 00 1D 00 00 00 00 00
+0018
+```
