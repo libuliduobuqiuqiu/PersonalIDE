@@ -32,6 +32,8 @@ end
 | <S-hj> | 切换buffer | n |
 | <leader> bp | 固定buffer | n |
 | <leader> bP | 除固定的buffer全部删除 | n |
+| ]e | Next Error | n |
+| [e | Prev Error | n |
 
 ### Neo-tree
 目录列表操作:
