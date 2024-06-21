@@ -135,6 +135,9 @@ return {
   }
 }
 ```
+退出窗口：
+- vim命令:q;
+- neovim命令：<leader>w+d
 #### 备注
 问题：解决查找替换后，出现Neo-tree错误( no such file or directory)
 解决方法：关闭neo-tree部分配置项，在nvim中plugins目录新建lua配置
