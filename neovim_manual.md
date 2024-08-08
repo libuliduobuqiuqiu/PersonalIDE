@@ -50,6 +50,7 @@ end
 | Key | Description | Mode |
 | --- | --- | --- |
 | <leader> cl | LSPInfo | n |
+| <leader> ca | Code Action | n |
 
 lsp 插件:
 
