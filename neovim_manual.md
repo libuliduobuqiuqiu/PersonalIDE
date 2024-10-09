@@ -14,6 +14,8 @@
 | M + <a-z> | 跳转Mark标记 | n |
 | dm + <a-z> | 取消Mark标记 | n |
 
+MarkDownPreView插件：可视化打开Markdown页面
+
 Keymap映射：
 ```lua
 -- Goto Mark
