@@ -95,6 +95,12 @@ TSInstall go
 ```
 TSInstallInfo
 ```
+#### 备注
+
+问题： linux64/share/nvim/runtime/lua/vim/treesitter/query.lua:251: Query error at 9:4. Invalid node type "<":
+解决方法：```:TSUpdate```
+
+
 
 ### Telescope
 | Key | Description | Mode |
