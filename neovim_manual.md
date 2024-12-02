@@ -118,10 +118,27 @@ return {
   {
     "FabijanZulj/blame.nvim",
     cmd = "ToggleBlame",
-    keys = { { "<leader>gb", "<cmd>ToggleBlame<cr>", desc = "Toggle Blame" } },
-  }
+    keys = {
+      { "<leader>gb", "<cmd>BlameToggle virtual<CR>", desc = "Git blame" },
+      { "<leader>gB", "<cmd>BlameToggle window<CR>", desc = "Git blame (window)" },
+    },
+    opts = {
+      date_format = "%Y-%m-%d %H:%M",
+      merge_consecutive = false,
+      max_summary_width = 30,
+      mappings = {
+        commit_info = "K",
+        stack_push = ">",
+        stack_pop = "<",
+        show_commit = "<CR>",
+        close = { "<Esc>", "q" },
+      },
+    },
+  },
 }
 ```
+> opts可不填，但是不存在可能不生效
+
 ### Spectre
 > 批量查找替换
 
@@ -137,6 +154,28 @@ return {
       { '<leader>gf', '<cmd>lua require("spectre").open_visual({select_word=true})<CR>', desc = "Search current word" }
     }
   }
+}
+return {
+  {
+    "FabijanZulj/blame.nvim",
+    cmd = "ToggleBlame",
+    keys = {
+      { "<leader>gb", "<cmd>BlameToggle virtual<CR>", desc = "Git blame" },
+      { "<leader>gB", "<cmd>BlameToggle window<CR>", desc = "Git blame (window)" },
+    },
+    opts = {
+      date_format = "%Y-%m-%d %H:%M",
+      merge_consecutive = false,
+      max_summary_width = 30,
+      mappings = {
+        commit_info = "K",
+        stack_push = ">",
+        stack_pop = "<",
+        show_commit = "<CR>",
+        close = { "<Esc>", "q" },
+      },
+    },
+  },
 }
 ```
 退出窗口：
