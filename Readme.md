@@ -1,3 +1,9 @@
+# no-mouse-dev
+![GitHub Created At](https://img.shields.io/github/created-at/libuliduobuqiuqiu/no-mouse-dev)
+![GitHub last commit](https://img.shields.io/github/last-commit/libuliduobuqiuqiu/no-mouse-dev)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/libuliduobuqiuqiu/no-mouse-dev)
+
+
 ## 导语
 > 纯键盘开发，又叫做mouseless programing，旨在通过减少鼠标操作，完全通过用键盘进行开发工作，提高开发效率。
 > 自身真实体验下来完全代替暂时还有点难度，日常公司项目开发过程，普通的IDE（goland）会使用；neovim一般都是用到自己的项目。
