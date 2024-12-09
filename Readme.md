@@ -11,7 +11,7 @@
 > 这篇文章只是粗浅把我自己搜集的一下资料稍微整理一下，方便后期检索，有兴趣的也可以互相交流。
 
 **个人维护的关于纯键盘开发编程笔记:**
-> [https://github.com/libuliduobuqiuqiu/PersonalIDE](https://github.com/libuliduobuqiuqiu/PersonalIDE)
+> [https://github.com/libuliduobuqiuqiu/no-mouse-dev](https://github.com/libuliduobuqiuqiu/no-mouse-dev)
 
 ## 工具
 **纯键盘开发使用到的插件或者工具：**
